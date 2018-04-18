@@ -1,0 +1,12 @@
+Package: QualtricsCreatoR
+Title: Create Qualtrics Surveys in R
+Version: 0.0.0.9000
+Date: 2018-04-17
+Authors: James Bisbee <jhb362@nyu.edu>
+Maintainer: James Bisbee <jhb362@nyu.edu>
+Description: This package contains one function that creates a .txt file correctly formatted to be imported into a new Qualtrics survey. The user must provide the raw survey content in a list form where the vectors contain the choices and the list names contain the questions. Users can pass encoding rules by naming the choice vectors. The package contains example survey data for reference. For a detailed description of the available commands, please see https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/. This package is based on the blog post by Sean Murphy which can be found at http://seancmurphy.com/2014/05/08/automatically-generating-large-qualtrics-surveys-in-r/.
+Depends: R (>= 3.3.1)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
